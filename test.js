@@ -119,3 +119,10 @@ test('Spread Operator in Inline Styles', () => {
 
     expect(code).toBe(expected);
 })
+
+test('Attribut Shorthand in Inline Styles', () => {
+    const code = transform('<div style={{ marginLeft: 2, fontColor }} display="flex" />;');
+    const expected = '<div style={{ marginLeft: 2, fontColor, display: "flex" }} />;';
+
+    expect(code).toBe(expected);
+})
