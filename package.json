@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-layout-props",
+  "version": "1.0.0",
+  "description": "This plugin transforms JSX attributes with CSS layout names into inline styles.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "layout",
+    "css",
+    "react",
+    "jsx",
+    "inline styles",
+    "styles",
+    "babel plugin"
+  ],
+  "author": "Justin Cannon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "jest": "^23.6.0"
+  }
+}
